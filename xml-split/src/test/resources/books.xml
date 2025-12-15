@@ -1,0 +1,48 @@
+<books>
+    <book attr1="val1" attr2="val2">
+        <name>book 1</name>
+        <published>1990</published>
+        <title>title 1</title>
+        <extra>
+            <pages>100</pages>
+            <summary>this is the short summary</summary>
+            <desc><![CDATA[this is the cdata section]]></desc>
+        </extra>
+    </book>
+    <book attr1="val1" attr3="val3">
+        <name>book 2</name>
+        <published>1990</published>
+        <title>title 2</title>
+        <extra>
+            <pages>100</pages>
+            <summary>this is the short summary</summary>
+        </extra>
+    </book>
+    <book attr1="val1" attr2="val2" attr3="val2">
+        <name>book 3</name>
+        <published>1990</published>
+        <title>title 3</title>
+        <extra>
+            <pages>100</pages>
+            <summary>this is the short summary</summary>
+        </extra>
+    </book>
+    <book>
+        <name>book 4</name>
+        <published>1990</published>
+        <title>title 4</title>
+        <extra>
+            <pages>100</pages>
+            <summary>this is the short summary</summary>
+        </extra>
+    </book>
+    <book attr5="val5">
+        <name>book 5</name>
+        <published>1990</published>
+        <title>title 5</title>
+        <extra>
+            <pages>100</pages>
+            <summary>this is the short summary</summary>
+        </extra>
+    </book>
+</books>
