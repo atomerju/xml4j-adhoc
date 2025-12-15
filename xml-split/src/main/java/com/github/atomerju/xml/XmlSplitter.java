@@ -90,7 +90,7 @@ public class XmlSplitter {
                     writer.write("\n");
 
                     count += 1;
-                    if (limit > 0 && count >= limit) {
+                    if (limit > 0 && count >= limit) { // early exits when got enough records
                         isDone = true;
                     }
                 }
